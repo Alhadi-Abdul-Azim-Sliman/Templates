@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masonary 3 Columns</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="./css/Masonary 3 Columns.css" />
+
+    <!-- Google Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Wow Js  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  </head>
+  <body>
+    
+    <!-- كود اسكرووول -->
+     
+  <div class="scroll_progress_circle  " onclick="scrollToTop()">
+    <svg class="circle" width="60" height="60">
+      <circle cx="30" cy="30" r="26"></circle>
+    </svg>
+    <i class="fas fa-sort-up"></i>
+  </div>
+
+    <!-- Header -->
+    <header class="navbar">
+      <div class="container">
+        <a class="logo">
+          <img src="./Images/logo-light.png" alt="Logo" />
+        </a>
+        <nav class="menu">
+          <ul>
+            <li id="dropdown_item">
+              <a href="./Main Home.html" class="dropdown">Home</a>
+
+              <ul class="dropdown-menu show">
+                <li>
+                  <a class="dropdown-item" href="./Main Home.html"
+                    >Main Home</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./Creative Studio.html"
+                    >Creative Studio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/home/home3-dark/"
+                    >Business Startup</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/home/home4-dark/">One Page</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/home/home5-dark/"
+                    >Freelancer</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="dropdown_item">
+              <a href="#about" class="dropdown">Showcases</a>
+              <div class="dropdown-menu show">
+                <a class="dropdown-item" href="/showcase/showcase-dark/"
+                  >Full Screen</a
+                ><a class="dropdown-item" href="/showcase2/showcase2-dark/"
+                  >Creative Carousel</a
+                ><a class="dropdown-item" href="/showcase3/showcase3-dark/"
+                  >Radius Carousel</a
+                ><a class="dropdown-item" href="/showcase4/showcase4-dark/"
+                  >Columns Carousel</a
+                ><a class="dropdown-item" href="/showcase5/showcase5-dark/"
+                  >Boxed Carousel</a
+                >
+              </div>
+            </li>
+            <li><a href="./About.html">About</a></li>
+            <li id="dropdown_item">
+              <a href="#about" class="dropdown">Portfolio</a>
+              <div class="dropdown-menu show">
+                <a class="dropdown-item" href="/showcase/showcase-dark/"
+                  >Mouse Info</a
+                ><a class="dropdown-item" href="./Masonary 3 Columns.html"
+                  >Masonry 3 Columns</a
+                ><a class="dropdown-item" href="/showcase3/showcase3-dark/"
+                  >Masonry 2 Columns</a
+                ><a class="dropdown-item" href="/showcase4/showcase4-dark/"
+                  >Pinterest List</a
+                >
+              </div>
+            </li>
+            <li><a href="./Contact .html">Contact</a></li>
+            <li>
+              <input type="text" placeholder="SEARCH" class="search_bar" />
+            </li>
+          </ul>
+          <div class="search">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- البانر الرئيسي -->
+
+    <!-- قسم الأعمال -->
+    <section class="portfolio section-padding pb-70">
+      <div class="container">
+        <h6 class="subtitle">PORTFOLIO</h6>
+        <h1 class="title">My amazing works.</h1>
+        <p>Creative way to showcase your works at their absolute best.</p>
+        <div class="filtering text-center col-12">
+          <div class="filter">
+            <span data-filter="*" class="active">All</span
+            ><span data-filter=".brand">Branding</span
+            ><span data-filter=".web">Mobile App</span
+            ><span data-filter=".graphic">Creative</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+        <!-- Start Gallery -->
+        <div class="gallery" id="gallery">
+          <div class="container">
+            <div  class="box">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 01 (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Creativity Demand</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div id="s-margin" class="box">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 02 (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Through The Breaking</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div class="box">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 03 (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Create With Creatives</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div class="box">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 04.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Energies of Love</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div id="s-margin" class="box">
+              <div class="image imago wow animated">
+                <img src="./Images/gallery 06.jpg"alt=""/>
+              </div>
+              <div class="cont">
+                <h6>Blast From The Past</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div class="box">
+              <div class="image imago wow animated">
+                <img src="./Images/gallery 05.jpg"alt=""/>
+              </div>
+              <div class="cont">
+                <h6>See It Yourself</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Gallery -->
+    <!-- الفوتر -->
+    <footer class="footer">
+      
+      <div class="copyrights text-center"><p>© 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.</p></div>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let carousel = document.querySelector("#carouselExampleCaptions");
+      let carouselInstance = new bootstrap.Carousel(carousel, {
+        interval: 4000, // الزمن بين كل شريحة (5 ثوانٍ)
+        ride: "carousel",
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script>
+      // Array of slider images
+      const sliderImages = [
+        "./Images/01.jpg", // Replace with your image paths
+        "./Images/02.jpg",
+        "./Images/03.jpg",
+      ];
+
+      let currentSlide = 0;
+
+      // Select elements
+      const slider = document.querySelector(".slider");
+      const currentSlideEl = document.getElementById("current-slide");
+      const totalSlidesEl = document.getElementById("total-slides");
+
+      // Set total slides count
+      totalSlidesEl.textContent = sliderImages.length;
+
+      // Function to update the background image
+      function updateSlider() {
+        slider.style.backgroundImage = `url(${sliderImages[currentSlide]})`;
+        currentSlideEl.textContent = currentSlide + 1;
+      }
+
+      // Show the next slide
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % sliderImages.length;
+        updateSlider();
+      }
+
+      // Show the previous slide
+      function prevSlide() {
+        currentSlide =
+          (currentSlide - 1 + sliderImages.length) % sliderImages.length;
+        updateSlider();
+      }
+
+      // Event listeners for buttons
+      document.querySelector(".next-btn").addEventListener("click", nextSlide);
+      document.querySelector(".prev-btn").addEventListener("click", prevSlide);
+
+      // Initialize slider
+      updateSlider();
+
+      // Slides data
+      const slides = [
+        { title: "DIGITAL", subtitle: "DESIGN AWARDS" },
+        { title: "CREATIVE", subtitle: "INNOVATION IDEAS" },
+        { title: "NEXT-GEN", subtitle: "TECHNOLOGY SHOWCASE" },
+      ];
+
+      let currentIndex = 0;
+    </script>
+    
+<!-- اسكربت سكرول -->
+<script>
+  const progressCircle = document.querySelector('.circle circle');
+  const circleRadius = progressCircle.r.baseVal.value;
+  const circumference = 2 * Math.PI * circleRadius;
+  
+  // ضبط محيط الدائرة
+  progressCircle.style.strokeDasharray = `${circumference}`;
+  progressCircle.style.strokeDashoffset = `${circumference}`;
+  
+  // تحديث تقدم الدائرة بناءً على التمرير
+  window.addEventListener('scroll', () => {
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrolledAmount = window.scrollY;
+    const progress = scrolledAmount / scrollableHeight;
+  
+    // تحديث الإزاحة بناءً على التمرير
+    const offset = circumference - progress * circumference;
+    progressCircle.style.strokeDashoffset = offset;
+  
+    // إظهار أو إخفاء الزر
+    if (scrolledAmount > 300) {
+      document.querySelector('.scroll_progress_circle').classList.add('show');
+    } else {
+      document.querySelector('.scroll_progress_circle').classList.remove('show');
+    }
+  });
+  
+  // التمرير إلى الأعلى عند النقر
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
+  
+</script>
+  </body>
+</html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Studio</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="./css/Creative Studio.css" />
+
+    <!-- Google Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Wow Js  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  </head>
+  <body>
+    
+    <!-- كود اسكرووول -->
+     
+  <div class="scroll_progress_circle  " onclick="scrollToTop()">
+    <svg class="circle" width="60" height="60">
+      <circle cx="30" cy="30" r="26"></circle>
+    </svg>
+    <i class="fas fa-sort-up"></i>
+  </div>
+
+    <!-- Header -->
+    <header class="navbar">
+      <div class="container">
+        <a class="logo">
+          <img src="./Images/logo-light.png" alt="Logo" />
+        </a>
+        <nav class="menu">
+          <ul>
+            <li id="dropdown_item">
+              <a href="./Main Home.html" class="dropdown">Home</a>
+
+              <ul class="dropdown-menu show">
+                <li>
+                  <a class="dropdown-item" href="./Main Home.html"
+                    >Main Home</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./Creative Studio.html"
+                    >Creative Studio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/home/home3-dark/"
+                    >Business Startup</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/home/home4-dark/">One Page</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/home/home5-dark/"
+                    >Freelancer</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="dropdown_item">
+              <a href="#about" class="dropdown">Showcases</a>
+              <div class="dropdown-menu show">
+                <a class="dropdown-item" href="/showcase/showcase-dark/"
+                  >Full Screen</a
+                ><a class="dropdown-item" href="/showcase2/showcase2-dark/"
+                  >Creative Carousel</a
+                ><a class="dropdown-item" href="/showcase3/showcase3-dark/"
+                  >Radius Carousel</a
+                ><a class="dropdown-item" href="/showcase4/showcase4-dark/"
+                  >Columns Carousel</a
+                ><a class="dropdown-item" href="/showcase5/showcase5-dark/"
+                  >Boxed Carousel</a
+                >
+              </div>
+            </li>
+            <li><a href="./About.html">About</a></li>
+            <li id="dropdown_item">
+              <a href="#about" class="dropdown">Portfolio</a>
+              <div class="dropdown-menu show">
+                <a class="dropdown-item" href="/showcase/showcase-dark/"
+                  >Mouse Info</a
+                ><a class="dropdown-item" href="./Masonary 3 Columns.html"
+                  >Masonry 3 Columns</a
+                ><a class="dropdown-item" href="/showcase3/showcase3-dark/"
+                  >Masonry 2 Columns</a
+                ><a class="dropdown-item" href="/showcase4/showcase4-dark/"
+                  >Pinterest List</a
+                >
+              </div>
+            </li>
+            <li><a href="./Contact .html">Contact</a></li>
+            <li>
+              <input type="text" placeholder="SEARCH" class="search_bar" />
+            </li>
+          </ul>
+          <div class="search">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+<section class="slider">
+  <div class="slider-content">
+    <h2 class="wow animate__animated animate__fadeInUp">DIGITAL</h2>
+    <h2 class="design wow animate__animated animate__fadeInUp animate__delay-1s">DESIGN AWARDS</h2>
+    <a href="#works" class="btn">Discover Works</a>
+  </div>
+  <div class="social-links">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-behance"></i></a>
+    <a href="#"><i class="fab fa-pinterest"></i></a>
+  </div>
+  <div class="slider-pagination">
+    <span id="current-slide">1</span> , <span id="total-slides">3</span>
+  </div>
+  <button class="slider-btn prev-btn">&#8592;</button>
+  <button class="slider-btn next-btn">&#8594;</button>
+</section>
+
+    <!-- قسم نبذة عنا -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="help">
+            <div class="sub-title wow animate__animated animate__fadeInUp">
+              <h6 class="">Know Us Better</h6>
+              <span></span><span></span><span></span>
+            </div>
+            <h2 class=" wow animate__animated animate__heartBeat animate__delay-1s">We help to create strategies,<br> design & development.</h2>
+          </div>
+          <div class="never wow animate__animated animate__fadeInUp">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vel
+              inventore temporibus praesentium beatae
+            </p>
+            <button>Know More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="service-cards_1">
+          <div class="mas-item wow animate__animated animate__fadeInUp ">
+            <i class="fas fa-desktop"></i>
+            <h6>Website <br />Developments</h6>
+            <div class="text-right">
+              <a class="more" href="/about/about-dark/"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+            <div class="bg-color"></div>
+          </div>
+
+          <div id="s-margin" class="mas-item wow animate__animated animate__fadeInUp">
+            <i class="fas fa-camera"></i>
+            <h6>
+              Product
+              <br />
+              Photography
+            </h6>
+            <div class="text-right">
+              <a class="more" href="/about/about-dark/"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+            <div class="bg-color"></div>
+          </div>
+          <div class="mas-item wow animate__animated animate__fadeInUp">
+            <i class="fas fa-mobile-alt"></i>
+            <h6>
+              Mobile App
+              <br />
+              Devlopment
+            </h6>
+            <div class="text-right">
+              <a class="more" href="/about/about-dark/"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+            <div class="bg-color"></div>
+          </div>
+        </div>
+        <div class="service-cards_2 wow animate__animated animate__fadeInUp">
+          <div class="mas-item wow animate__animated animate__fadeInUp">
+            <i class="fas fa-file-invoice"></i>
+            <h6>Document <br />Legal Policy</h6>
+            <div class="text-right">
+              <a class="more" href="/about/about-dark/"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+            <div class="bg-color"></div>
+          </div>
+
+          <div id="s-margin" class="mas-item wow animate__animated animate__fadeInUp">
+            <i class="fas fa-weight-hanging"></i>
+            <h6>
+              Managing
+              <br />
+              Community
+            </h6>
+            <div class="text-right">
+              <a class="more" href="/about/about-dark/"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+            <div class="bg-color"></div>
+          </div>
+          <div class="mas-item wow animate__animated animate__fadeInUp">
+            <i class="fab fa-intercom"></i>
+            <h6>
+              Coustomer <br />
+              Engagement
+            </h6>
+            <div class="text-right">
+              <a class="more" href="/about/about-dark/"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+            <div class="bg-color"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- قسم  الفيديو -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="left-content">
+          <div class="play-button wow animate__animated animate__delay-1.2s animate__heartBeat">
+            <span><i class="fas fa-play" ></i></span>
+            <!-- أيقونة زر التشغيل -->
+          </div>
+          <h1 class="wow animate__animated animate__delay-1.2s animate__fadeInLeftBig">
+            So that's us. There's no <br />
+            other way to put it.
+          </h1>
+        </div>
+        <div class="right-content">
+          <p class="section-title ">OUR HAPPY CLIENTS</p>
+          <h2  class=" wow animate__animated animate__fadeInLeft animate__delay-1s">What Client's Say?</h2>
+          <p class="description  wow animate__animated animate__fadeInUp">
+            Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
+            volutpat velit class aptent taciti sociosqu ad litora.
+          </p>
+          <hr />
+          <div class="client-info">
+            <div class="img-boxwidth  wow animate__animated animate__zoomIn">
+              <img src="./Images/22.jpg" alt="Alex Regelman" />
+            </div>
+            <div class="alex">
+              <p class="client-name  wow animate__animated animate__bounceInUp animate__delay-1s">ALEX REGELMAN</p>
+              <p class="client-role wow animate__animated animate__bounceInUp animate__delay-1s">CO-FOUNDER, COLABRIO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="CircularProgressbar">
+      <div class="container">
+        <div class="circul circul_1 wow animate__animated animate__fadeInLeft">
+          <div class="project-container circle-1">
+            <div class="progress-circle"></div>
+            <div class="cont">
+              <h3>Project</h3>
+              <h1>Consulting</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="circul circul_2">
+          <div class="project-container circle-2 wow animate__animated animate__fadeInLeft">
+            <div class="progress-circle"></div>
+            <div class="cont">
+              <h3>App</h3>
+              <h1>Development</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- قسم الأعمال -->
+    <section class="portfolio section-padding pb-70">
+      <div class="container">
+        <h6 class="subtitle wow animate__animated animate__bounceInLeft">PORTFOLIO</h6>
+        <h1 class="title wow animate__animated animate__bounceInLeft">OUR WORKS .</h1>
+        <div class="filtering text-center col-12">
+          <div class="filter">
+            <span data-filter="*" class="active">All</span
+            ><span data-filter=".brand">Branding</span
+            ><span data-filter=".web">Mobile App</span
+            ><span data-filter=".graphic">Creative</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+        <!-- Start Gallery -->
+        <div class="gallery" id="gallery">
+          <div class="container">
+            <div  class="box wow animate__animated animate__fadeInUp">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 01 (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Creativity Demand</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div id="s-margin" class="box wow animate__animated animate__fadeInUp">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 02 (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Through The Breaking</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div class="box wow animate__animated animate__fadeInUp">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 03 (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Create With Creatives</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div class="box wow animate__animated animate__fadeInUp">
+              <div class="image imago wow animated">
+                <img
+                  src="./Images/gallery 04.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cont">
+                <h6>Energies of Love</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div id="s-margin" class="box wow animate__animated animate__fadeInUp">
+              <div class="image imago wow animated">
+                <img src="./Images/gallery 06.jpg"alt=""/>
+              </div>
+              <div class="cont">
+                <h6>Blast From The Past</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span
+                >
+              </div>
+            </div>
+            <div class="box wow animate__animated animate__fadeInUp">
+              <div class="image imago wow animated">
+                <img src="./Images/gallery 05.jpg"alt=""/>
+              </div>
+              <div class="cont">
+                <h6>See It Yourself</h6>
+                <span><a href="">Design</a>,<a href="">WordPress</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Gallery -->
+        <!-- clients section -->
+        <section class="clients-section">
+          <div class="container">
+            <div class="clients-box wow animate__animated animate__delay-1s animate__zoomIn">
+              <h6>Clients</h6><h2>OUR <br> CLIENTS </h2>
+            </div>
+            <div class="clients-flex ">
+              <div class="client-logo  wow animate__animated animate__delay-0.5s animate__zoomIn"><img src="./Images/clients section01.png" alt=""></div>
+              <div class="client-logo  wow animate__animated animate__delay-1s animate__zoomIn"><img src="./Images/clients section02.png" alt=""></div>
+              <div class="client-logo  wow animate__animated animate__delay-0.5s animate__zoomIn"><img src="./Images/clients section03.png" alt=""></div>
+              <div class="client-logo  wow animate__animated animate__delay-1s animate__zoomIn"><img src="./Images/clients section04.png" alt=""></div>
+              <div class="client-logo  wow animate__animated animate__delay-0.5s animate__zoomIn"><img src="./Images/clients section05.png" alt=""></div>
+              <div class="client-logo  wow animate__animated animate__delay-1s animate__zoomIn"><img src="./Images/clients section06.png" alt=""></div>
+              <div class="client-logo  wow animate__animated animate__delay-0.5s animate__zoomIn"><img src="./Images/clients section07.png" alt=""></div>
+              <div class="client-logo  wow animate__animated animate__delay-1s animate__zoomIn"><img src="./Images/clients section08.png" alt=""></div>
+
+            </div>
+          </div>
+        </section>
+        <section class="project-section">
+          <div class="container   wow animate__animated animate__bounceInLeft">
+
+          <div class="content  wow animate__animated animate__bounceInLeft ">
+              <p class="subtitle ">LET'S TALK</p>
+              <h1 class="">ABOUT YOUR <span class="letter">NEXT PROJECT <span>.</span></span></h1>
+          </div>
+          <button class="button  wow animate__animated  animate__tada animate__delay-1s ">
+            <span> Get In Touch</span>
+          </button>
+        </div>
+
+      </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- القسم الأول -->
+        <div class="footer-section one">
+          <img class="footer-logo" src="./Images/logo-light.png" alt="" />
+          
+          <p>Email: <a href="mailto:Avo_support@website.com" class="footer-link">Avo_support@website.com</a></p>
+          <p>Address: <a class="add"> A32, Ave 15th Street, Door 211, San Francisco, USA 32490.</a></p>
+          <p>Phone: <a href="tel:+123456784488" class="footer-link">(+1) 2345 678 44 88</a></p>
+          <button class="follow">FOLLOW US</button>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+        </div>
+    
+        <!-- القسم الثاني -->
+        <div class="footer-section two">
+          <h4>NEWSLETTER</h4>
+          <p>Sign up for subscribe our newsletter!</p>
+          <form>
+            <input type="email" placeholder="Your Email" class="footer-input">
+            <button type="submit"class="footer-button">SUBSCRIBE</button>
+          </form> 
+          <div class="footer-section">
+            <h4>INSTAGRAM POST</h4>
+            <div class="footer-images">
+              <img src="./Images/footer_1.jpg" alt="Instagram post" class="footer-img">
+              <img src="./Images/footer_2.jpg" alt="Instagram post" class="footer-img">
+              <img src="./Images/footer_3.jpg" alt="Instagram post" class="footer-img">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights text-center"><p>© 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.</p></div>
+    </footer>
+  <!-- مكتبة WOW.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <!-- تهيئة WOW.js -->
+  <script>
+    new WOW().init();
+  </script>
+
+  
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let carousel = document.querySelector("#carouselExampleCaptions");
+      let carouselInstance = new bootstrap.Carousel(carousel, {
+        interval: 4000, // الزمن بين كل شريحة (5 ثوانٍ)
+        ride: "carousel",
+      });
+    </script>
+
+    <script>
+      // Array of slider images
+      const sliderImages = [
+        "./Images/01.jpg", // Replace with your image paths
+        "./Images/02.jpg",
+        "./Images/03.jpg",
+      ];
+
+      let currentSlide = 0;
+
+      // Select elements
+      const slider = document.querySelector(".slider");
+      const currentSlideEl = document.getElementById("current-slide");
+      const totalSlidesEl = document.getElementById("total-slides");
+
+      // Set total slides count
+      totalSlidesEl.textContent = sliderImages.length;
+
+      // Function to update the background image
+      function updateSlider() {
+        slider.style.backgroundImage = `url(${sliderImages[currentSlide]})`;
+        currentSlideEl.textContent = currentSlide + 1;
+      }
+
+      // Show the next slide
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % sliderImages.length;
+        updateSlider();
+      }
+
+      // Show the previous slide
+      function prevSlide() {
+        currentSlide =
+          (currentSlide - 1 + sliderImages.length) % sliderImages.length;
+        updateSlider();
+      }
+
+      // Event listeners for buttons
+      document.querySelector(".next-btn").addEventListener("click", nextSlide);
+      document.querySelector(".prev-btn").addEventListener("click", prevSlide);
+
+      // Initialize slider
+      updateSlider();
+
+      // Slides data
+      const slides = [
+        { title: "DIGITAL", subtitle: "DESIGN AWARDS" },
+        { title: "CREATIVE", subtitle: "INNOVATION IDEAS" },
+        { title: "NEXT-GEN", subtitle: "TECHNOLOGY SHOWCASE" },
+      ];
+
+      let currentIndex = 0;
+    </script>
+
+<!-- اسكربت سكرول -->
+<script>
+  const progressCircle = document.querySelector('.circle circle');
+  const circleRadius = progressCircle.r.baseVal.value;
+  const circumference = 2 * Math.PI * circleRadius;
+  
+  // ضبط محيط الدائرة
+  progressCircle.style.strokeDasharray = `${circumference}`;
+  progressCircle.style.strokeDashoffset = `${circumference}`;
+  
+  // تحديث تقدم الدائرة بناءً على التمرير
+  window.addEventListener('scroll', () => {
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrolledAmount = window.scrollY;
+    const progress = scrolledAmount / scrollableHeight;
+  
+    // تحديث الإزاحة بناءً على التمرير
+    const offset = circumference - progress * circumference;
+    progressCircle.style.strokeDashoffset = offset;
+  
+    // إظهار أو إخفاء الزر
+    if (scrolledAmount > 300) {
+      document.querySelector('.scroll_progress_circle').classList.add('show');
+    } else {
+      document.querySelector('.scroll_progress_circle').classList.remove('show');
+    }
+  });
+  
+  // التمرير إلى الأعلى عند النقر
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
+  
+</script>
+  </body>
+</html>
